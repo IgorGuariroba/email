@@ -5,7 +5,7 @@ FROM node:18.17.1
 WORKDIR /usr/src/app
 
 # Update npm to the latest version
-RUN npm install -g npm@10.0.0
+RUN npm install -g npm@latest --unsafe-perm
 
 # Change to non-root user
 USER node
@@ -14,7 +14,7 @@ USER node
 COPY --chown=node:node . .
 
 # Install dependencies
-#RUN #npm install
+RUN npm install
 
 EXPOSE 8080
 
