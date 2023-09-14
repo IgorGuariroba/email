@@ -16,6 +16,6 @@ COPY --chown=node:node . .
 # Install dependencies
 #RUN #npm install
 
-EXPOSE 3000
+EXPOSE 8080
 
 CMD ["bash", "-c", "while true; do echo Docker is running...; sleep 100; done"]
