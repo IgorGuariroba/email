@@ -1,0 +1,23 @@
+{
+  "name": "email",
+  "version": "1.0.0",
+  "description": "envio de e-mail gratuito",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IgorGuariroba/email.git"
+  },
+  "author": "igor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorGuariroba/email/issues"
+  },
+  "homepage": "https://github.com/IgorGuariroba/email#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
