@@ -18,4 +18,4 @@ COPY --chown=node:node . .
 
 EXPOSE 8080
 
-CMD ["bash", "-c", "while true; do echo Docker is running...; sleep 100; done"]
+CMD [ "npm", "start" ]
